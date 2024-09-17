@@ -10,6 +10,11 @@
         width: 225px;
         font-size: 25px;
         cursor: pointer;
+        transition: opacity 0.15s;
+      }
+
+      .uber-button:hover {
+        opacity: 0.8;
       }
 
       .amazon-button {
@@ -22,6 +27,10 @@
         cursor: pointer;
       }
 
+      .amazon-button:hover {
+        background-color: rgb(245, 205, 3);
+      }
+
       .github-button {
         background-color: rgb(46, 164, 79);
         color: white;
@@ -32,6 +41,11 @@
         font-weight: bold;
         border-radius: 10px;
         cursor: pointer;
+        transition: box-shadow 0.15s;
+      }
+
+      .github-button:hover {
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
       }
 
       .get-started-button {
@@ -45,6 +59,11 @@
         border-radius: 8px;
         margin-right: 20px;
         cursor: pointer;
+        transition: background-color 0.15s;
+      }
+
+      .get-started-button:hover {
+        background-color: rgb(99, 60, 156);
       }
 
       .download-button {
@@ -59,6 +78,12 @@
         font-weight: bold;
         border-radius: 8px;
         cursor: pointer;
+        transition: background-color 0.15s, color 0.15s;
+      }
+
+      .download-button:hover {
+        background-color: rgb(108, 117, 125);
+        color: white;
       }
 
       .apply-button {
@@ -72,6 +97,11 @@
         border-radius: 40px;
         margin-right: 25px;
         cursor: pointer;
+        transition: background-color 0.15s;
+      }
+
+      .apply-button:hover {
+        background-color: rgb(2, 70, 138);
       }
 
       .save-button {
@@ -86,11 +116,21 @@
         font-weight: bold;
         border-radius: 40px;
         cursor: pointer;
+        transition: background-color 0.15s, border-width 0.15s;
+      }
+
+      .save-button:hover {
+        background-color: rgb(226, 240, 254);
+        border-width: 2px;
       }
 
       .amazon-link {
         color: rgb(0, 113, 133);
         font-size: 30px;
+      }
+
+      .amazon-link:hover {
+        color: rgb(199, 81, 31);
       }
 
       .title {
@@ -119,6 +159,14 @@
         cursor: pointer;
       }
 
+      .add-to-cart-button:hover {
+        background-color: rgb(247, 202, 0);
+      }
+
+      .add-to-cart-button:active {
+        opacity: 0.5;
+      }
+
       .buy-now-button {
         background-color: rgb(255, 164, 28);
         border: none;
@@ -128,11 +176,18 @@
         border-radius: 40px;
         cursor: pointer;
       }
+
+      .buy-now-button:hover {
+        background-color: rgb(250, 137, 0);
+      }
+
+      .buy-now-button:active {
+        opacity: 0.5;
+      }
     </style>
   </head>
   <body>
-    <h1>CSS Basics</h1>
-
+    <h1>Hovers, Transitions, Shadows</h1>
     <h1>1. Uber</h1>
     <button class="uber-button">Request now</button>
 
