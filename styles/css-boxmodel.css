@@ -188,8 +188,8 @@
   border-color: rgb(10, 102, 194);
   padding-top: 22px;
   padding-bottom: 22px;
-  padding-left: 55px;
-  padding-right: 55px;
+  padding-left: 40px;
+  padding-right: 40px;
   font-size: 30px;
   font-weight: bold;
   border-radius: 40px;
@@ -255,7 +255,7 @@
   padding-left: 35px;
   padding-right: 35px;
   font-size: 30px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 
@@ -283,6 +283,6 @@
 .stretch-lar-button:hover {
   margin-left: 0px;
   margin-right: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
