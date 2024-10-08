@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="styles/css-grid.css">
+  </head>
+  <body>
+    <h1>CSS Grid</h1>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 100px;
+    ">
+      <div style="background-color: lightblue;">div 1</div>
+      <div style="background-color: lightpink;">div 2<p>text</p></div>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 100px 100px 200px;
+    ">
+      <div style="background-color: lightblue;">100px</div>
+      <div style="background-color: lightpink;">100px<p>text</p></div>
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">100px</div>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 100px 1fr;
+    ">
+      <div style="background-color: lightblue;">100px</div>
+      <div style="background-color: lightpink;">1fr</div>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 100px 1fr 2fr;
+    ">
+      <div style="background-color: lightblue;">100px</div>
+      <div style="background-color: lightpink;">1fr</div>
+      <div style="background-color: lightblue;">2fr</div>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 40px;
+    ">
+      <div style="background-color: lightblue; height: 200px;">1fr</div>
+      <div style="background-color: lightpink; height: 200px;">1fr</div>
+      <div style="background-color: lightblue; height: 200px;">1fr</div>
+      <div style="background-color: lightpink; height: 200px;">1fr</div>
+      <div style="background-color: lightblue; height: 200px;">1fr</div>
+      <div style="background-color: lightpink; height: 200px;">1fr</div>
+    </div>
+
+    <div class="grid-two-cols">
+      <div class="lightblue">200px</div>
+      <div class="lightpink">75px</div>
+    </div>
+
+    <div class="grid-three-cols">
+      <div class="lightblue">col1</div>
+      <div class="lightpink">col2</div>
+      <div class="lightblue">col3</div>
+    </div>
+
+    <div class="grid-four-cols">
+      <div class="lightpink">col1</div>
+      <div class="lightpink">col2</div>
+      <div class="lightpink">col3</div>
+      <div class="lightpink">col4</div>
+      <div class="lightpink">col1</div>
+      <div class="lightpink">col2</div>
+      <div class="lightpink">col3</div>
+      <div class="lightpink">col4</div>
+    </div>
+
+    <h1>Facebook</h1>
+      <div class="facebook-grid">
+        <div class="facebook-profile">
+          <img class="facebook-profile-picture" src="images/cat.jpg">
+          <p class="facebook-username">Oliver</p>
+          <div class="mutual-friends-row">
+            <img class="mutual-friend-picture" src="images/dog2.jpg">
+            <p class="mutual-friends">2 mutual friends</p>
+          </div>
+          <button class="add-friend-button">Add Friend</button>    
+        </div>
+  
+        <div class="facebook-profile">
+          <img class="facebook-profile-picture" src="images/cat2.jpg">
+          <p class="facebook-username">Mimi</p>
+          <div class="mutual-friends-row">
+            <img class="mutual-friend-picture" src="images/dog2.jpg">
+            <p class="mutual-friends">3 mutual friends</p>
+          </div>
+          <button class="add-friend-button">Add Friend</button>
+        </div>
+    
+        <div class="facebook-profile">
+          <img class="facebook-profile-picture" src="images/dog.jpg">
+          <p class="facebook-username">Rex</p>
+          <div class="mutual-friends-row">
+            <img class="mutual-friend-picture" src="images/dog2.jpg">
+            <p class="mutual-friends">4 mutual friends</p>
+          </div>
+          <button class="add-friend-button">Add Friend</button>
+        </div>
+      </div>
+  </body>
+</html>

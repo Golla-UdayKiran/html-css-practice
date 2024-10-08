@@ -107,6 +107,7 @@
   width: 300px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   display: inline-block;
+  vertical-align: top;
   margin-right: 25px;
 }
 
@@ -135,7 +136,6 @@
 
 .mutual-friend-picture,
 .mutual-friends {
-  display: inline-block;
   vertical-align: middle;
 }
 
@@ -148,6 +148,7 @@
 }
 
 .mutual-friends {
+  display: inline-block;
   color: rgb(100, 100, 100);
   font-size: 22px;
   margin-top: 0;
