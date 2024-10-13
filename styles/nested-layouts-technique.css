@@ -1,50 +1,48 @@
-.instagram-card {
+.row {
   font-family: Arial;
   font-size: 40px;
   margin-bottom: 30px;
 }
 
-.user-picture,
-.user-info,
-.user-follow {
+.profile-picture,
+.info,
+.follow-button {
   display: inline-block;
   vertical-align: middle;
 }
 
-.user-picture {
-  margin-right: 35px;
-}
-
 .profile-picture {
+  margin-right: 35px;
   width: 175px;
   height: 175px;
   object-fit: cover;
   border-radius: 87px;
 }
 
-.user-info {
+.info {
   width: 550px;
 }
 
-.username,
 .name,
+.handle,
 .category {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.username {
+.name {
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.name,
-.category {
-  color: gray;
+.handle {
+  color: rgb(150, 150, 150);
+  margin-bottom: 20px;
 }
 
-.name {
-  margin-bottom: 20px;
+.category {
+  color: rgb(150, 150, 150);
+  font-size: 33px;
 }
 
 .follow-button {
@@ -55,7 +53,7 @@
   padding-bottom: 20px;
   padding-left: 25px;
   padding-right: 25px;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   border-radius: 10px;
   cursor: pointer;
