@@ -1,10 +1,71 @@
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  height: 36px;
+  width: 62px;
+  border-radius: 2px;
+  cursor: pointer;
+
+  transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+.post-button {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 74px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+}
+
+.post-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
 .uber-button {
   background-color: black;
   color: white;
   border: none;
-  height: 80px;
-  width: 225px;
-  font-size: 25px;
+  height: 40px;
+  width: 110px;
   cursor: pointer;
   transition: opacity 0.15s;
 }
@@ -16,10 +77,9 @@
 .amazon-button {
   background-color: rgb(255, 216, 20);
   border: none;
-  height: 80px;
-  width: 400px;
-  font-size: 30px;
-  border-radius: 40px;
+  height: 30px;
+  width: 140px;
+  border-radius: 15px;
   cursor: pointer;
 }
 
@@ -31,11 +91,11 @@
   background-color: rgb(46, 164, 79);
   color: white;
   border: none;
-  height: 80px;
-  width: 225px;
-  font-size: 30px;
+  height: 40px;
+  width: 90px;
   font-weight: bold;
-  border-radius: 10px;
+  font-size: 15px;
+  border-radius: 6px;
   cursor: pointer;
   transition: box-shadow 0.15s;
 }
@@ -48,13 +108,12 @@
   background-color: rgb(121, 82, 179);
   color: white;
   border: none;
-  height: 80px;
-  width: 225px;
-  font-size: 25px;
+  height: 40px;
+  width: 110px;
   font-weight: bold;
-  border-radius: 8px;
-  margin-right: 20px;
+  border-radius: 4px;
   cursor: pointer;
+  margin-right: 6px;
   transition: background-color 0.15s;
 }
 
@@ -65,16 +124,16 @@
 .download-button {
   background-color: white;
   color: rgb(108, 117, 125);
-  height: 80px;
-  width: 225px;
-  border-color: rgb(108, 117, 125);
-  border-style: solid;
   border-width: 1px;
-  font-size: 25px;
+  border-style: solid;
+  border-color: rgb(108, 117, 125);
+  height: 40px;
+  width: 100px;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.15s, color 0.15s;
+  transition: background-color 0.15s,
+    color 0.15s;
 }
 
 .download-button:hover {
@@ -86,13 +145,13 @@
   background-color: rgb(10, 102, 194);
   color: white;
   border: none;
-  height: 80px;
-  width: 500px;
-  font-size: 30px;
+  height: 40px;
+  width: 240px;
   font-weight: bold;
-  border-radius: 40px;
-  margin-right: 25px;
+  font-size: 15px;
+  border-radius: 20px;
   cursor: pointer;
+  margin-right: 8px;
   transition: background-color 0.15s;
 }
 
@@ -106,13 +165,14 @@
   border-width: 1px;
   border-style: solid;
   border-color: rgb(10, 102, 194);
-  height: 80px;
-  width: 175px;
-  font-size: 30px;
+  height: 40px;
+  width: 80px;
   font-weight: bold;
-  border-radius: 40px;
+  font-size: 15px;
+  border-radius: 20px;
   cursor: pointer;
-  transition: background-color 0.15s, border-width 0.15s;
+  transition: background-color 0.15s,
+    border-width 0.15s;
 }
 
 .save-button:hover {
@@ -122,7 +182,6 @@
 
 .amazon-link {
   color: rgb(0, 113, 133);
-  font-size: 30px;
 }
 
 .amazon-link:hover {
@@ -130,28 +189,22 @@
 }
 
 .title {
-  font-size: 46px;
+  font-size: 24px;
   font-weight: bold;
 }
 
 .price {
-  color: rgb(0, 118, 0);
-  font-size: 25px;
+  color: rgb(0, 136, 0);
   font-weight: bold;
 }
 
-.deliver-time {
-  font-size: 32px;
-}
-
 .add-to-cart-button {
-  background-color: rgb(255, 216, 20);
+  background-color: rgb(249, 217, 76);
   border: none;
-  height: 80px;
-  width: 225px;
-  font-size: 20px;
-  border-radius: 40px;
-  margin-right: 25px;
+  height: 30px;
+  width: 110px;
+  border-radius: 15px;
+  margin-right: 8px;
   cursor: pointer;
 }
 
@@ -166,10 +219,9 @@
 .buy-now-button {
   background-color: rgb(255, 164, 28);
   border: none;
-  height: 80px;
-  width: 225px;
-  font-size: 20px;
-  border-radius: 40px;
+  height: 30px;
+  width: 110px;
+  border-radius: 15px;
   cursor: pointer;
 }
 
