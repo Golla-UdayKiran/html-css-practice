@@ -1,142 +1,112 @@
-.name,
-.user-email {
+.input1 {
   display: block;
-  width: 550px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
-.survey-description {
+.paragraph {
   display: inline-block;
-  font-size: 40px;
-  width: 475px;
-  margin-right: 20px;
+  width: 200px;
   vertical-align: middle;
-  margin-top: 0;
 }
 
-.yes-button,
-.no-button {
-  font-size: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-right: 10px;
-  vertical-align: middle;
-  cursor: pointer;
-}
-
-.google-logo {
+img {
   display: block;
-  width: 350px;
-  margin-left: 450px;
+  width: 200px;
+  margin-left: 150px;
   margin-bottom: 10px;
 }
 
-.search-bar {
-  font-size: 37px;
+.input2 {
   border: none;
-  border-radius: 100px;
-  width: 1000px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 100px;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
-.first-name,
-.last-name {
-  font-size: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 20px;
-  border-color: rgb(200, 200, 200);
+.input3 {
   border-width: 1px;
   border-style: solid;
-  border-radius: 15px;
-  margin-right: 10px;
-  margin-bottom: 25px;
+  border-color: rgb(200, 200, 200);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px; 
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.first-name {
+  width: 148px;
+}
+
+.last-name {
+  width: 148px;
 }
 
 .email {
   display: block;
-  font-size: 40px;
-  width: 1042px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 20px;
-  border-color: rgb(200, 200, 200);
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 15px;
-  margin-bottom: 25px;
+  width: 334px;
 }
 
-.signup-button {
+.button {
   background-color: rgb(47, 127, 231);
   color: white;
-  padding-top: 23px;
-  padding-bottom: 23px;
-  width: 1093px;
-  font-size: 40px;
-  font-weight: bold;
   border: none;
-  border-radius: 15px;
-  cursor: pointer;
+  width: 368px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
 }
 
 .title {
   font-family: Arial;
-  font-size: 73px;
-  margin-top: 0;
-  margin-bottom: 40px;
+  font-size: 40px;
+  margin-bottom: 25px;
 }
 
-.pickup-textbox,
-.destination-textbox {
+.input4 {
   display: block;
   background-color: rgb(240, 240, 240);
   border: none;
-  margin-bottom: 20px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-  font-family: Arial;
-  font-size: 35px;
-  width: 750px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  width: 400px;
+}
+
+.destination-textbox {
+  margin-bottom: 35px;
 }
 
 .request-button {
   background-color: black;
   color: white;
   border: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 35px;
-  margin-top: 50px;
-  margin-right: 30px;
-  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  margin-right: 20px;
 }
 
 .schedule-button {
   background-color: rgb(240, 240, 240);
   border: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 35px;
-  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
 }
